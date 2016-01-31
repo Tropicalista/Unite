@@ -137,17 +137,17 @@ module.exports = function( grunt ){
 		      archive: 'unite.zip'
 		    },
 		    files: [
-		      {src: ['screenshot.png'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['Theme.cfc'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['layouts/**'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['templates/**'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['views/**'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['widgets/**'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['includes/fonts/*'], dest: '/', filter: 'isFile'}, // includes files in path
-		      {src: ['includes/js/*'], dest: '/', filter: 'isFile'}, // includes files in path
-		      {src: ['includes/css/*'], dest: '/', filter: 'isFile'}, // includes files in path
-		      {src: ['includes/css/src/**'], dest: '/'}, // includes files in path and its subdirs
-		      {src: ['includes/css/themes/*'], dest: '/', filter: 'isFile'}, // includes files in path and its subdirs
+		      {src: ['screenshot.png'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['Theme.cfc'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['layouts/**'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['templates/**'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['views/**'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['widgets/**'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['includes/fonts/*'], dest: '/unite', filter: 'isFile'}, // includes files in path
+		      {src: ['includes/js/*'], dest: '/unite', filter: 'isFile'}, // includes files in path
+		      {src: ['includes/css/*'], dest: '/unite', filter: 'isFile'}, // includes files in path
+		      {src: ['includes/css/src/**'], dest: '/unite'}, // includes files in path and its subdirs
+		      {src: ['includes/css/themes/*'], dest: '/unite', filter: 'isFile'}, // includes files in path and its subdirs
 		      //{expand: true, cwd: 'path/', src: ['**'], dest: 'internal_folder3/'}, // makes all src relative to cwd
 		      //{flatten: true, src: ['path/**'], dest: 'internal_folder4/', filter: 'isFile'} // flattens results to a single level
 		    ]
