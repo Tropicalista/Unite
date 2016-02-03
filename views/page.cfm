@@ -8,7 +8,7 @@
     <div id="content" class="site-content container">
 
         <!-- blog-contents -->
-    	<div id="primary" class="content-area col-sm-12 col-md-8 pull-left">
+    	<div id="primary" class="content-area col-sm-12 #maincol# pull-left">
 
             <main id="main" class="site-main">
 
