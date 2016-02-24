@@ -70,7 +70,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- injector:css -->
-		<link rel="stylesheet" href="#cb.themeRoot()#/includes/css/d9ac3a8f.theme.min.css">
+		<link rel="stylesheet" href="#cb.themeRoot()#/includes/css/c3cc1ac3.theme.min.css">
 		<!-- endinjector -->
 
 		<link rel="stylesheet" href="#cb.themeRoot()#/includes/css/themes/#lcase( cb.themeSetting( 'cbUniteTheme', 'blue' ))#.css?v=1" />
@@ -79,7 +79,7 @@
 		<!--- 					JAVASCRIPT														--->
 		<!--- ********************************************************************************* --->
 		<!-- injector:js -->
-		<script src="#cb.themeRoot()#/includes/js/6763865d.theme.min.js"></script>
+		<script src="#cb.themeRoot()#/includes/js/c70100ff.theme.min.js"></script>
 		<!-- endinjector -->
 
 		<!--- ContentBoxEvent --->

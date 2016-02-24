@@ -69,7 +69,7 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
 			writeOutput('<ul id="recentEntries">');
 			// iterate and create
 			for(var x=1; x lte arguments.max; x++){
-				writeOutput('<li><div class="tab-content"><a class="tab-entry" href="#cb.linkEntry(entryResults.entries[ x ])#">#entryResults.entries[ x ].getTitle()#</a><i>#entryResults.entries[ x ].getDisplayPublishedDate()#</i>
+				writeOutput('<li><div class="content"><a class="tab-entry" href="#cb.linkEntry(entryResults.entries[ x ])#">#entryResults.entries[ x ].getTitle()#</a><i>#entryResults.entries[ x ].getDisplayPublishedDate()#</i>
 </div></li>');
 			}
 			// close ul

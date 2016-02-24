@@ -6,7 +6,7 @@
         <h3 class="widget-title">Popular Posts</h3>
 
         <!-- popular posts -->
-        <div class="popular-posts-wrapper">
+        <div class="popular-posts-wrapper tab-content">
 
             #cb.widget('MyRecentEntries')#
 
@@ -17,7 +17,7 @@
     <aside class="widget">
         <h3 class="widget-title">Categories</h3>
         <!-- social icons -->
-        <div class="cats-widget">
+        <div class="cats-widget tab-content">
             <ul>
                 #cb.quickCategories()#
             </ul>
